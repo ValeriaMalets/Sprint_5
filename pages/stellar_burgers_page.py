@@ -24,8 +24,11 @@ tab_fillings = '//span[contains(text(), "Начинки")]'
 button_constructor = '//p[contains(text(), "Конструктор")]'
 button_order = '//button[contains(text(), "Оформить заказ")]'
 cr_bun = '//p[contains(text(), "Краторная булка N-200i")]'
+cr_bun_modal_window = '//img[@src="https://code.s3.yandex.net/react/code/bun-02.png" and @alt="tick animation"]'
 spicy_sauce = '//p[contains(text(), "Соус Spicy-X")]'
+spicy_sauce_modal_window = '//img[@src="https://code.s3.yandex.net/react/code/sauce-02.png" and @alt="tick animation"]'
 bun_mini = '//p[contains(text(), "Мини-салат Экзо-Плантаго")]'
+bun_mini_modal_window = '//img[@src="https://code.s3.yandex.net/react/code/salad.png" and @alt="tick animation"]'
 
 
 # MyAccount

@@ -18,3 +18,9 @@ FOLDER test contains files with test for site functionality:
 5. logout_test.py: 1 test 
 6. registration_test.py: 2 tests: success registration test, invalid password test
 7. transition_to_constructor_test.py: 1 test for testing the proceeding to constructor from account page.
+Changes after comments:
+8. config.py file is added : WebLink saved
+9. registration_test.py : Added functions to generate random email address and invalid password.
+10. All the time.sleep was changed to waiting with the expected conditions
+11. Added classes
+12. construction_section_test.py: Asserts and element's Xpath are updated
