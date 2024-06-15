@@ -1,12 +1,8 @@
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions
 from config import WEB_LINK
 from pages.stellar_burgers_page import button_account, input_email, input_password, button_login, button_constructor, \
     tab_buns
-
-EMAIL = 'valeriamalets9111@gmail.com'
-PASSWORD = 'Sprint5'
+from test.data import EMAIL, PASSWORD
 
 
 class TestStellarBurgersGoToConstructor:

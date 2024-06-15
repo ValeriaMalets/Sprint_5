@@ -24,3 +24,8 @@ Changes after comments:
 10. All the time.sleep was changed to waiting with the expected conditions
 11. Added classes
 12. construction_section_test.py: Asserts and element's Xpath are updated
+
+UPDATES 15.06:
+1. data.py file added
+2. helpers.py  file added
+3. consrtuctor_section_test.py: asserts were edited, XPaths to the element have been changed
