@@ -20,20 +20,16 @@ link_registration = '//a[contains(text(), "Зарегистрироваться"
 tab_buns = '//span[contains(text(), "Булки")]'
 tab_sauces = '//span[contains(text(), "Соусы")]'
 tab_fillings = '//span[contains(text(), "Начинки")]'
+tab_buns_selected = '//div[contains(@class, "tab_tab__1SPyG") and .//span[text()="Булки"]]'
+tab_sauces_selected = '//div[contains(@class, "tab_tab__1SPyG") and .//span[text()="Соусы"]]'
+tab_fillings_selected = ('//div[contains(@class, "tab_tab__1SPyG") and contains(@class, "tab_tab_type_current__2BEPc") '
+                         'and .//span[text()="Начинки"]]')
+
 
 button_constructor = '//p[contains(text(), "Конструктор")]'
 button_order = '//button[contains(text(), "Оформить заказ")]'
 
-spicy_sauce = '//p[contains(text(), "Соус Spicy-X")]'
-spicy_sauce_modal_window_image = '//div[@class="undefined mb-4"]/following-sibling::p[contains(text(), "Соус Spicy-X")]'
 
-fill_salad_mini = '//p[contains(text(), "Мини-салат Экзо-Плантаго")]'
-fill_salad_mini_modal_window_image = ('//div[@class="undefined mb-4"]/following-sibling::p[contains(text(), "Мини-салат '
-                                'Экзо-Плантаго")]')
-
-cr_bun = '//p[contains(text(), "Краторная булка N-200i")]'
-cr_bun_modal_window_image = ('//div[@class="undefined mb-4"]/following-sibling::p[contains(text(), "Краторная булка '
-                             'N-200i")]')
 # MyAccount
 button_exit = '//button[contains(text(), "Выход")]'
 link_profile = '//a[contains(text(), "Профиль")]'

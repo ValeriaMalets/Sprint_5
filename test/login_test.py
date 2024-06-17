@@ -4,13 +4,7 @@ from selenium.webdriver.support import expected_conditions
 from config import WEB_LINK
 from pages.stellar_burgers_page import button_login_to_account, input_email, input_password, button_login, button_order, \
     button_account, link_login, button_reset_password, link_registration
-from test.data import EMAIL, PASSWORD
-
-
-def enter_email_password_click_login(browser):
-    browser.find_element(By.XPATH, input_email).send_keys(EMAIL)
-    browser.find_element(By.XPATH, input_password).send_keys(PASSWORD)
-    browser.find_element(By.XPATH, button_login).click()
+from helpers import enter_email_password_click_login
 
 
 class TestStellarBurgersLogin:

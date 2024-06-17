@@ -29,3 +29,9 @@ UPDATES 15.06:
 1. data.py file added
 2. helpers.py  file added
 3. consrtuctor_section_test.py: asserts were edited, XPaths to the element have been changed
+
+UPDATES 17.06:
+1. helpers.file - edited
+2. pages/stellar_burgers_page.py - edited, new xpathes are added
+3. login_test.py - edited
+4. constructor_section_test.py - asserts were edited

@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 from config import WEB_LINK
 from test.data import NAME
-from test.helpers import generate_unique_email, generate_valid_password, generate_invalid_password
+from helpers import generate_unique_email, generate_valid_password, generate_invalid_password
 from pages.stellar_burgers_page import link_registration, button_login_to_account, input_email, input_password, \
     button_register, input_name, input_error
 
