@@ -20,15 +20,15 @@ link_registration = '//a[contains(text(), "Зарегистрироваться"
 tab_buns = '//span[contains(text(), "Булки")]'
 tab_sauces = '//span[contains(text(), "Соусы")]'
 tab_fillings = '//span[contains(text(), "Начинки")]'
-tab_buns_selected = '//div[contains(@class, "tab_tab__1SPyG") and .//span[text()="Булки"]]'
-tab_sauces_selected = '//div[contains(@class, "tab_tab__1SPyG") and .//span[text()="Соусы"]]'
+tab_buns_selected = ('//div[contains(@class, "tab_tab__1SPyG") and contains(@class, "tab_tab_type_current__2BEPc") '
+                     'and .//span[text()="Булки"]]')
+tab_sauces_selected = ('//div[contains(@class, "tab_tab__1SPyG") and contains(@class, "tab_tab_type_current__2BEPc") '
+                       'and .//span[text()="Соусы"]]')
 tab_fillings_selected = ('//div[contains(@class, "tab_tab__1SPyG") and contains(@class, "tab_tab_type_current__2BEPc") '
                          'and .//span[text()="Начинки"]]')
 
-
 button_constructor = '//p[contains(text(), "Конструктор")]'
 button_order = '//button[contains(text(), "Оформить заказ")]'
-
 
 # MyAccount
 button_exit = '//button[contains(text(), "Выход")]'
